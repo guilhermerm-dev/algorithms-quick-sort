@@ -16,7 +16,7 @@ namespace algorithms_quick_sort_test
             Assert.AreEqual(4, values[2]);
         }
 
-                [TestMethod]
+        [TestMethod]
         public void ShouldSortArrayWithQuickSortAlgorithm2()
         {
             int[] values = new int[] { 8, 3, 2, 4, 1, 9, 10, 11 };
